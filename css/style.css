@@ -2,6 +2,7 @@
     --colorprimario:#4C7DFE;
     --colorsecundario:#A3BCFC;;
     --blanco:#FFFFFF;
+    --plomo:grey;
     --cologradiante:(142.22deg, #4C7DFE 21.83%, #003DDB 78.88%);
 /* fuentes */
     --poppins:"poppins";
@@ -10,9 +11,11 @@
 body{
     padding: 0%;
     margin: 0%;
+    font-family: var(--poppins);
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0%;
+    
 
 }
 a{
@@ -23,4 +26,95 @@ li{
 }
 ul,ol{
     padding: 0 !important;
+
+}
+/* header */
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        padding-top:60px ;
+
+}
+.logo img{
+    width: 63px;
+    
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+.menu li{
+    margin-right: 65px;
+}
+.menu li:last-child{
+    margin-right:0% ;
+}
+.menu a{
+    color: var(--plomo);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.menu a:hover{
+    color: black;
+}
+main{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 657px;
+}
+.main-descripcion h3{
+   width: 500;
+   font-size:28px;
+    color: var(--colorprimario)
+
+}
+.main-descripcion h1{
+    width: 600;
+    font-size:85px;
+     
+ 
+}
+.main-descripcion p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--plomo);
+}
+
+.main-botones{
+    width: 411px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+.main-botones a:first-child{
+    background-color: var(--colorprimario);
+    padding: 16px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: var(--blanco);
+}
+
+.main-botones a:last-child{
+    background-color: transparent;
+    padding: 16px 24px;
+    font-size: 20px;
+    border: 2px solid var(--colorprimario);
+    border-radius: 5px;
+    color: var(--colorprimario);
+}
+
+.main-image img{
+    width: 623px;
 }
