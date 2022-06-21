@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6{
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
 }
@@ -121,7 +122,9 @@ main{
 .about{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    background-color: #ebebeb;
+
 }
 .about-img img{
     width: 600px;
@@ -155,9 +158,23 @@ main{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
      gap: 20px; /*Separacion de contenedores */
 }
 .caja img{
     width: 580px;}
+.caja :hover{
+    color: #fcb8a3;
+}
+.correo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+}
+.n4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
