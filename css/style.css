@@ -76,7 +76,7 @@ main{
 .main-descripcion h3{
    width: 500;
    font-size:28px;
-    color: var(--colorprimario)
+    color: var(--colorprimario);
 
 }
 .main-descripcion h1{
@@ -134,7 +134,7 @@ main{
 .about-description h3{
     font-size: 24px;
     font-weight: 400;
-    color: var(--colorPrimario);
+    color: var(--colorprimario);
 }
 .about-description h2{
     font-weight: 600;
